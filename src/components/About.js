@@ -7,7 +7,7 @@ function About({bio, github, linkedin}) {
       <h2>About Me</h2>
       {!bio || bio === "" ? null : <p>{bio}</p>}
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
-      <Links github={github} linkedin={linkedin} />
+      <Links github={github} linkedin={linkedin}/>
     </div>
   );
 }
